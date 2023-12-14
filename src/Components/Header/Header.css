@@ -1,0 +1,37 @@
+img {
+    width: 120px;
+    border-radius: 8px;
+    position: relative;    
+}
+
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-radius: 12px;
+    margin: 0px 15px 0px 15px;
+}
+
+button:hover {
+transition: 0.3s;  
+background: linear-gradient(to right, #B53B93ff, #BF4086ff,#C84578ff,#D24A6Bff,#DC4E5Dff, #E55350ff,#EF5842ff);
+border-radius: 12px;
+color: white;
+height: 40px;
+padding: 0px 20px 0px 20px;
+
+}
+
+.button-container{
+    align-self: center;
+}
+
+/* .header-container {
+    display:flexbox;
+    justify-content: space-around;
+    
+}

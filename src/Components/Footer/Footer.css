@@ -1,0 +1,13 @@
+.footer-container {
+    height: 50px;
+    background-image: linear-gradient(to right, #B53B93ff, #BF4086ff,#C84578ff,#D24A6Bff,#DC4E5Dff, #E55350ff,#EF5842ff);
+    width: 100%;
+    margin-top: auto;
+}
+
+.text-container{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: small;
+    
+}
