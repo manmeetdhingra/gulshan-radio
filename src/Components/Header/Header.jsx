@@ -1,5 +1,10 @@
 import React from 'react'
 import "./Header.css"
+import { useNavigate } from 'react-router-dom'
+
+
+
+
 // import { Button, ThemeProvider, createTheme } from '@mui/material'
 
 // const mainTheme = createTheme({
@@ -9,17 +14,22 @@ import "./Header.css"
 // })
 
 
+
+
 export default function Header() {
+
+  const navigate = useNavigate()
+
   return (
     <div style={{display: "flex", justifyContent: "space-between"}} className='header-container'>
         <div><img src='/GulshanRadio-UPDATE3-03(1).png'/></div>
         <div className='button-container'>
-        <button>Home</button>
-        <button>Schedule</button>
-        <button>Presenters</button>
-        <button>Gallery</button>
-        <button>About Us</button>
-        <button>Contact Us</button></div>
+        <button onClick={() => navigate("/")}>Home</button>
+        <button onClick={() => navigate("/schedule")}>Schedule</button>
+        <button onClick={() => navigate("/presenters")}>Presenters</button>
+        <button onClick={() => navigate("/gallery")}>Gallery</button>
+        <button onClick={() => navigate("/about")}>About Us</button>
+        <button onClick={() => navigate("/contact")}>Contact Us</button></div>
     </div>
   )
 }
