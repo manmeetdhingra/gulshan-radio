@@ -1,0 +1,29 @@
+.main-container {
+    width: 450px;
+    height: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.main-container h1 {
+    font-size: 50px;
+}
+
+.goals-container {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 150px;
+}
+
+.goals-container p{
+    width: 200px;
+    border: 2px solid;
+    padding: 50px;
+    border-radius: 12px;
+
+    
+}
