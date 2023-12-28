@@ -1,0 +1,49 @@
+.background-img {
+    background-image: url("mic.jpg");
+    height: 100vh;
+    background-position: center; 
+  background-size: cover;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedulebtn-container {
+    width: 500px;
+    margin-right: 300px;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.schedulebtn-container button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    margin: 20px;
+    height: 40px;
+        color: black;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: beige;
+        box-shadow: 0 5px purple;
+}
+
+.schedulebtn-container button:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+}
+
+  .schedulebtn-container button:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+  }
