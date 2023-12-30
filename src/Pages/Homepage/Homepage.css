@@ -19,11 +19,14 @@
     margin-top: 150px;
 }
 
-.goals-container p{
-    width: 200px;
-    border: 2px solid;
-    padding: 50px;
-    border-radius: 12px;
-
+.card-container p{
+    width: 260px;
+    height: 190px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 40px;
+    box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    padding: 30px;
+    margin: 5vh;
     
 }
