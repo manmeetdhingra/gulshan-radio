@@ -19,6 +19,12 @@
     margin-top: 150px;
 }
 
+.goals-container h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
 .card-container p{
     width: 260px;
     height: 190px;
@@ -27,6 +33,5 @@
     border-radius: 40px;
     box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
     padding: 30px;
-    margin: 5vh;
-    
+    margin: 5vh;   
 }

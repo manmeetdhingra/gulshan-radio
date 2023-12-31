@@ -20,6 +20,14 @@
     
 }
 
+.schedulebtn-container h2 {
+  font-size: 40px;
+  color: beige;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .schedulebtn-container button {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 120px;
@@ -36,7 +44,7 @@
         border-radius: 5px;
         border: none;
         background: beige;
-        box-shadow: 0 5px purple;
+        box-shadow: 0 5px #ff0a78;
 }
 
 .schedulebtn-container button:hover {

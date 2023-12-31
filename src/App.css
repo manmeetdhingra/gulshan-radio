@@ -1,3 +1,4 @@
 .app-container{
-    background: linear-gradient(90deg, #ffffff 0%, #fff0f3 100%)
+    background: linear-gradient(90deg, #ffffff 0%, #fff0f3 100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
