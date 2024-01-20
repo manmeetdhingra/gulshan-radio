@@ -43,7 +43,7 @@ const images = [
 
 export default function Homepage() {
   return (
-    <>
+    <div>
     <div style={{display: "flex", flexDirection: "row-reverse", marginTop: "100px", justifyContent: "space-evenly"}}>
       <div style={{height: "500px", width: "600px"}}>
       <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false}/>
@@ -65,6 +65,6 @@ export default function Homepage() {
       <p>Supporting Local Businesses: <br/><br/> Promoting and championing the growth of local businesses through strategic advertising, mutually beneficial partnerships, and community-focused initiatives that drive economic vitality and sustainability.</p>
       </div>
     </div>
-  </>
+  </div>
   )
 }
