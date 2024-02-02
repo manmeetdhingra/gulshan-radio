@@ -1,21 +1,28 @@
 .wolves-image {
-    background-image: url("wolvesstatue.jpeg");
+   background-image: url("wolvesstatue.jpeg");
     background-position: center; 
-    background-size: cover;
-    height: 85vh;    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 85vh;
+    position: relative;
 }
 
-.form-container{
+
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 60vh;
-    height: max-content;
-    margin: auto;
+    width: 80%; /* or use width: 60vw; for viewport width */
+    max-width: 600px; /* Set a max-width to limit the width on larger screens */
     border: 2px solid black;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.75);
     background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        
 }

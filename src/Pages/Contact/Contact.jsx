@@ -18,6 +18,8 @@ export default function Contact() {
         Studio: +44 1902 509 933<br/><br/>
       </p>
       <Lottie style={{width: "150px"}} animationData={animationData1}/>
+      <button className='contact-btn'>Email</button>
+      
     </div>
     </div>
   )
