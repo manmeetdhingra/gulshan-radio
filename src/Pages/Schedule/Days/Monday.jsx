@@ -1,11 +1,21 @@
 import React from 'react'
-import "../Days/Monday.css"
+import "../Days/Days.css"
+import { useNavigate } from 'react-router-dom'
 
 export default function Monday() {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/schedule")
+  }
+
+
   return (
+    <div style={{height: "75vh"}}>
     <div className='sch-container'>
         <div className='time-container'>
-            <p>Time: </p>
+            <p style={{fontSize: "x-large", textDecoration: "underline"}}>Time: </p>
             <p>8am to 10am</p>
             <p>10am to 12pm</p>
             <p>12pm to 2pm</p>
@@ -15,17 +25,17 @@ export default function Monday() {
             <p>7pm to 9pm</p>
         </div>
         <div className='prog-container'>
-            <p>Programme: </p>
+            <p style={{fontSize: "x-large", textDecoration: "underline"}}>Programme: </p>
             <p>Happy Morning</p>
             <p>Health is wealth</p>
             <p>Desi Tadka</p>
             <p>Kujh gallan Mere Sheher Diyan</p>
             <p>Drive Time Show </p>
-            <p>Path Live</p>
+            <p>Rehras Sahib - Path</p>
             <p>Desi Gallan</p>
         </div>
         <div className='pres-container'>
-            <p>Presenter: </p>
+            <p style={{fontSize: "x-large", textDecoration: "underline"}}>Presenter: </p>
             <p>Gulshan Dhingra</p>
             <p>Rubi</p>
             <p>Deepa</p>
@@ -34,7 +44,8 @@ export default function Monday() {
             <p>Live</p>
             <p>Nindy Kaur</p>
         </div>
-
+    </div>
+    <div className='sch-button'><button onClick={handleClick}>Go back</button></div>
     </div>
   )
 }

@@ -20,7 +20,7 @@ export default function Contact() {
       </p>
       <Lottie style={{width: "150px", marginTop: "30px"}} animationData={animationData1}/>
 
-      <button className='contact-btn'>E-mail</button>
+      <a className='contact-btn' href='mailto:info@gulshanradio.co.uk'>E-mail</a>
       <Lottie style={{width: "150px", marginTop: "30px"}} animationData={animationData2} />
       
       <p style={{width: "300px", marginTop: "30px", marginBottom: "30px"}}>Address: 715-C, Parkfield Road <br /> Wolverhampton, West Midlands, WV4 6EE</p>

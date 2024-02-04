@@ -1,0 +1,58 @@
+.sch-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-top: 10vh;
+
+}
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pres-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.prog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sch-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sch-button button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 120px;
+    margin: 20px;
+    height: 40px;
+    color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(to right, #B53B93ff, #BF4086ff,#C84578ff,#D24A6Bff,#DC4E5Dff, #E55350ff,#EF5842ff);;
+           
+}
+
+.sch-button button:hover {
+    box-shadow: 0 4px grey;
+    top: 1px;
+}
+
+.sch-button button:active {
+    box-shadow: 0 0 grey;
+    top: 5px;
+  }
