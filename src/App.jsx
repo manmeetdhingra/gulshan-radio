@@ -8,6 +8,13 @@ import Presenters from "./Pages/Presenters/Presenters";
 import Gallery from "./Pages/Gallery/Gallery";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Monday from "./Pages/Schedule/Days/Monday";
+import Tuesday from "./Pages/Schedule/Days/Tuesday";
+import Wednesday from "./Pages/Schedule/Days/Wednesday";
+import Thursday from "./Pages/Schedule/Days/Thursday";
+import Friday from "./Pages/Schedule/Days/Friday";
+import Saturday from "./Pages/Schedule/Days/Saturday";
+import Sunday from "./Pages/Schedule/Days/Sunday";
 
 function App() {
 
@@ -23,6 +30,19 @@ function App() {
       <Route path="gallery" element={<Gallery />}/>
       <Route path="about" element={<About />}/>
       <Route path="contact" element={<Contact />}/>
+      <Route path="/schedule/monday" element={<Monday />}/>
+
+      <Route path="/schedule/tuesday" element={<Tuesday />}/>
+
+      <Route path="/schedule/wednesday" element={<Wednesday />}/>
+
+      <Route path="/schedule/thursday" element={<Thursday />}/>
+
+      <Route path="/schedule/friday" element={<Friday />}/>
+      
+      <Route path="/schedule/saturday" element={<Saturday />}/>
+
+      <Route path="/schedule/sunday" element={<Sunday />}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

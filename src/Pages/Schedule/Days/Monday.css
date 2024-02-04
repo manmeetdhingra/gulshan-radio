@@ -1,0 +1,22 @@
+.sch-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 85vh;
+    align-items: center;
+}
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pres-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.prog-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -107,7 +107,7 @@ const images = [
 export default function Gallery() {
   return (
     <div className='gallery-container'>
-      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={true}/>
+      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false}/>
     </div>
   )
 }
