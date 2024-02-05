@@ -23,17 +23,17 @@
 .schedulebtn-container h2 {
   font-size: 40px;
   color: beige;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .schedulebtn-container button {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Nunito', sans-serif;
     width: 120px;
     margin: 20px;
     height: 40px;
         color: black;
         padding: 5px 10px;
-        font-weight: bold;
+        font-size: medium;
         cursor: pointer;
         transition: all 0.3s ease;
         position: relative;

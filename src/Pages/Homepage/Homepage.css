@@ -1,7 +1,7 @@
 .main-container {
     width: 450px;
     height: 500px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,18 @@
 }
 
 .main-container h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
 }
 
 .goals-container {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin-top: 150px;
 }
 
 .goals-container h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .card-container p{
@@ -32,4 +33,5 @@
     box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
     padding: 25px;
     margin: 2vh;  
+    font-size: 17px;
 }

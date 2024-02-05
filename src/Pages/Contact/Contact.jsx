@@ -11,7 +11,7 @@ export default function Contact() {
     <div className='wolves-image'>
       <div className='form-container'>
         
-       <h1>Let's Connect !</h1>
+       <h1>Let's Connect!</h1>
       <Lottie style={{width: "150px"}} animationData={animationData}/>
       <p>
         Mobile: +44 793 137 3613<br/><br/>

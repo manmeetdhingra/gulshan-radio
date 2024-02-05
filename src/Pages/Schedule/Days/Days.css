@@ -10,16 +10,19 @@
 .time-container {
     display: flex;
     flex-direction: column;
+    font-size: 17px;
 }
 
 .pres-container{
     display: flex;
     flex-direction: column;
+    font-size: 17px;
 }
 
 .prog-container {
     display: flex;
     flex-direction: column;
+    font-size: 17px;
 }
 
 .sch-button {
@@ -29,13 +32,14 @@
 }
 
 .sch-button button{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
     width: 120px;
     margin: 20px;
     height: 40px;
     color: white;
         padding: 5px 10px;
         font-weight: bold;
+        font-size: medium;
         cursor: pointer;
         transition: all 0.3s ease;
         position: relative;

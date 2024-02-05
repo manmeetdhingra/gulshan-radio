@@ -3,9 +3,8 @@
     background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     position: relative;
-    margin-top: 2vh;
 }
 
 
@@ -15,9 +14,11 @@
     align-items: center;
     text-align: center;
     width: 80%; /* or use width: 60vw; for viewport width */
-    max-width: 700px; /* Set a max-width to limit the width on larger screens */
+    max-width: 650px; /* Set a max-width to limit the width on larger screens */
     border: 2px solid black;
     border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
     box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.75);
     background-color: white;
