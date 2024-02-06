@@ -7,7 +7,10 @@
 
 .text-container{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Nunito', sans-serif;
     font-size: small;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
 }

@@ -1,3 +1,11 @@
+.home-container {
+    display: flex;
+    flex-Direction: row-reverse;
+    margin-top: 100px; 
+    justify-content: space-evenly;
+}
+
+
 .main-container {
     width: 450px;
     height: 500px;
@@ -34,4 +42,28 @@
     padding: 25px;
     margin: 2vh;  
     font-size: 17px;
+}
+
+@media (max-width: 1000px) {
+    .home-container {
+        width: 100%; /* Make the container full-width */
+        display: flex;
+        flex-direction: column-reverse; /* Display contents in a column layout */
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-container {
+        text-align: center; 
+        padding: 20px; 
+        margin-top: -40px;
+    }
+
+    .main-container h1 {
+        font-size: 60px; 
+    }
+
+    .main-container h2 {
+        font-size: 20px; 
+    }
 }

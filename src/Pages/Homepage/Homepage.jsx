@@ -43,9 +43,13 @@ const images = [
 
 export default function Homepage() {
   return (
-    <div>
-    <div style={{display: "flex", flexDirection: "row-reverse", marginTop: "100px", justifyContent: "space-evenly"}}>
-      <div style={{height: "500px", width: "600px"}}>
+    <div >
+    <div className='home-container' 
+    
+    // style={{display: "flex", flexDirection: "row-reverse", marginTop: "100px", justifyContent: "space-evenly"}}
+    
+    >
+      <div  style={{height: "500px", width: "600px"}}>
       <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false}/>
       </div>
       <div className='main-container'>
