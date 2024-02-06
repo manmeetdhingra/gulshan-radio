@@ -44,18 +44,14 @@ const images = [
 export default function Homepage() {
   return (
     <div >
-    <div className='home-container' 
-    
-    // style={{display: "flex", flexDirection: "row-reverse", marginTop: "100px", justifyContent: "space-evenly"}}
-    
-    >
-      <div  style={{height: "500px", width: "600px"}}>
+    <div className='home-container' >
+      <div className='reactIMG-container'>
       <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false}/>
       </div>
       <div className='main-container'>
       <h1>Gulshan Radio 106.9FM</h1>
       <h2>Live from the heart of Wolverhampton - <br />Bridging communities with a voice for Punjabi, English, Hindi and Urdu speakers in West Midlands and Beyond</h2>
-      <Lottie style={{width: "250px", marginLeft: "100px"}} animationData={animationData}/>
+      <Lottie className='Lottie' animationData={animationData}/>
       </div>
 
 

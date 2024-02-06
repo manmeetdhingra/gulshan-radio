@@ -5,6 +5,10 @@
     justify-content: space-evenly;
 }
 
+.reactIMG-container{
+    height: 500px;
+    width: 600px;
+}
 
 .main-container {
     width: 450px;
@@ -15,6 +19,11 @@
     flex-direction: column;
     justify-content: space-between;
     
+}
+
+.Lottie {
+    width: 250px;
+    margin-left: 100px;
 }
 
 .main-container h1 {
@@ -51,12 +60,14 @@
         flex-direction: column-reverse; /* Display contents in a column layout */
         justify-content: space-around;
         align-items: center;
+
     }
 
     .main-container {
         text-align: center; 
         padding: 20px; 
         margin-top: -40px;
+        padding-bottom: 90px;
     }
 
     .main-container h1 {
@@ -66,4 +77,34 @@
     .main-container h2 {
         font-size: 20px; 
     }
+}
+
+@media (max-width: 600px) {
+   .home-container {
+    width: 400px;
+   }
+
+   .main-container {
+    width: 250px;
+    align-items: center;
+   }
+
+   .main-container h1 {
+    font-size: 40px; 
+}
+
+.Lottie {
+    margin: auto;
+}
+
+.main-container h2 {
+    font-size: 15px;
+}
+
+
+.reactIMG-container {
+    width: 350px;
+}
+
+   
 }

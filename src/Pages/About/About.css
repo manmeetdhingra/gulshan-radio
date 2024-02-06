@@ -14,5 +14,24 @@
 .about-container p {
     width: 80vh;
     margin: 30px 60px 100px 60px;
+}
 
+@media (max-width: 1000px) {
+    .about-container img{
+        width: 550px;
+    }
+
+    .about-container p {
+        width: fit-content;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-container img{
+        width: 350px;
+    }
+
+    .about-container p {
+        width: fit-content;
+    }
 }

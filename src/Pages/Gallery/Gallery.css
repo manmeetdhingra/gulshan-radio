@@ -4,3 +4,15 @@
     margin-top: 20vh;
     margin-bottom: 20vh;
 }
+
+@media (max-width: 1000px) {
+    .gallery-container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-container {
+        width: 350px;
+    }
+}
