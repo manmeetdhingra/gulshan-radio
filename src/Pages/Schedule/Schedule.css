@@ -54,3 +54,30 @@
     box-shadow: 0 0 #ff0a78;
     top: 5px;
   }
+
+  @media (max-width: 650px) {
+    .background-img {
+      height: 70vh; /* Decrease the height for smaller screens */
+    }
+  
+    .schedule-container {
+      flex-direction: column; /* Change to a column layout for smaller screens */
+      align-items: center;
+    }
+  
+    .schedulebtn-container {
+      width: auto; /* Remove fixed width */
+      margin: 50px auto; /* Center the container and add vertical margin */
+      text-align: center;
+    }
+  
+    .schedulebtn-container h2 {
+      font-size: 30px; /* Decrease font size for smaller screens */
+    }
+  
+    .schedulebtn-container button {
+      width: 30%; /* Make buttons full width */
+      margin: 10px 10px; /* Adjust margin for buttons */
+    }
+  }
+  

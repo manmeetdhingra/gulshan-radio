@@ -60,3 +60,27 @@
     box-shadow: 0 0 grey;
     top: 5px;
   }
+
+  @media (max-width: 650px) {
+    .sch-container {
+      align-items: center; /* Center items vertically */
+      margin-top: 5vh; /* Decrease top margin for smaller screens */
+    }
+  
+    .time-container,
+    .pres-container,
+    .prog-container {
+      font-size: 10px; /* Decrease font size for smaller screens */
+      margin-bottom: 20px; /* Add margin at the bottom for spacing */
+    }
+  
+    .sch-button {
+      margin-top: 30px; /* Adjust top margin for button container */
+    }
+  
+    .sch-button button {
+      width: 40%; /* Make buttons full width */
+      margin: 10px 0; /* Adjust margin for buttons */
+    }
+  }
+  

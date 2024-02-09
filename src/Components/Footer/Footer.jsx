@@ -9,11 +9,20 @@ export default function Footer() {
       <div className='text-container'>
         <h3>Gulshan Radio ©</h3>
           <div >
-          <IoLogoFacebook style={{paddingRight: "10px", fontSize: "25px"}}/>
-          <FaInstagramSquare style={{fontSize: "24px"}} />
+            
+          <a href="https://www.facebook.com/GulshanRadioWolverhampton" target='blank' style={{color: "white"}}>
+            
+            <IoLogoFacebook style={{paddingRight: "10px", fontSize: "25px"}}/>
+            
+            </a>
+          <a href="https://www.instagram.com/gulshanradio/" target='blank' style={{color: "white"}}>
+            
+            <FaInstagramSquare style={{fontSize: "24px"}} />
+            
+            </a>
           </div>
 
-        <h3>Created by Manmeet Dhingra</h3>
+        <h3>Created by <a href="https://manmeetdhingra.com" target='blank' style={{color: "white"}}>Manmeet Dhingra</a></h3>
 
       </div>
     </div>

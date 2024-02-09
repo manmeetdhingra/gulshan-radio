@@ -1,4 +1,64 @@
 .wolves-image {
+    background-image: url("wolvesstatue.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height to 100vh to cover the entire viewport */
+    position: relative;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    max-width: 650px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px auto; /* Center the form container horizontally */
+    padding: 20px;
+    box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+.contact-btn {
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    background: #e8e8e8;
+    padding: 6px 16px;
+    border: solid #000000 2px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .form-container{
+        height: 80%;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+    .wolves-image {
+        height: 150vh; /* Increase height for smaller devices to ensure background visibility */
+    }
+
+    .form-container {
+        width: 90%; /* Adjust width for smaller devices */
+        padding: 10px; /* Adjust padding for smaller devices */
+    }
+}
+
+
+/* .wolves-image {
    background-image: url("wolvesstatue.jpeg");
     background-position: center; 
     background-size: cover; 
@@ -13,8 +73,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 80%; /* or use width: 60vw; for viewport width */
-    max-width: 650px; /* Set a max-width to limit the width on larger screens */
+    width: 80%; 
+    max-width: 650px; 
     border: 2px solid black;
     border-radius: 20px;
     margin-top: 20px;
@@ -41,4 +101,4 @@
     margin-bottom: 30px;
     cursor: pointer;
     text-decoration: none;
-}
+} */
