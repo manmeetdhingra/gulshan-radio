@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Contact.css"
 import Lottie from 'lottie-react'
-import animationData from '/Users/msingh/gulshan-radio/public/phone.json';
-import animationData1 from '/Users/msingh/gulshan-radio/public/email.json';
-import animationData2 from '/Users/msingh/gulshan-radio/public/location.json';
+import animationData from '../../Data/phone.json';
+import animationData1 from '../../Data/email.json';
+import animationData2 from '../../Data/location.json';
 
 
 export default function Contact() {

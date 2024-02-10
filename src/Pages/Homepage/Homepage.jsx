@@ -3,7 +3,7 @@ import ReactImageGallery from 'react-image-gallery'
 import "./Homepage.css"
 import "react-image-gallery/styles/css/image-gallery.css";
 import Lottie from 'lottie-react';
-import animationData from '/Users/msingh/gulshan-radio/public/radio.json';
+import animationData from '../../Data/radio.json';
 
 const images = [
   {
