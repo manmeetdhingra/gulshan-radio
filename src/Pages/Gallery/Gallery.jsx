@@ -4,101 +4,101 @@ import ReactImageGallery from 'react-image-gallery'
 
 const images = [
   {
-    original: "public/Ammy.jpg",
-    thumbnail: "public/Ammy.jpg",
+    original: "/Ammy.jpg",
+    thumbnail: "/Ammy.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Anmol.jpg",
-    thumbnail: "public/Anmol.jpg",
+    original: "/Anmol.jpg",
+    thumbnail: "/Anmol.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Dilpreet.jpg",
-    thumbnail: "public/Dilpreet.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  
-  {
-    original: "public/Saleem.jpg",
-    thumbnail: "public/Saleem.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "public/Gulshan.jpg",
-    thumbnail: "public/Gulshan.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "public/Hard-Kaur.jpg",
-    thumbnail: "public/Hard-Kaur.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "public/Jasbir.jpg",
-    thumbnail: "public/Jasbir.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "public/Jenny-Johal.jpg",
-    thumbnail: "public/Jenny-Johal.jpg",
+    original: "/Dilpreet.jpg",
+    thumbnail: "/Dilpreet.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   
   {
-    original: "public/Lakhwinder-Wadali.jpg",
-    thumbnail: "public/Lakhwinder-Wadali.jpg",
+    original: "/Saleem.jpg",
+    thumbnail: "/Saleem.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Malkit Singh.jpg",
-    thumbnail: "public/Malkit Singh.jpg",
+    original: "/Gulshan.jpg",
+    thumbnail: "/Gulshan.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Mankirat.jpg",
-    thumbnail: "public/Mankirat.jpg",
+    original: "/Hard-Kaur.jpg",
+    thumbnail: "/Hard-Kaur.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Ninja.jpg",
-    thumbnail: "public/Ninja.jpg",
+    original: "/Jasbir.jpg",
+    thumbnail: "/Jasbir.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Roshan-prince.jpg",
-    thumbnail: "public/Roshan-prince.jpg",
+    original: "/Jenny-Johal.jpg",
+    thumbnail: "/Jenny-Johal.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   
   {
-    original: "public/Sharry-Mann.jpg",
-    thumbnail: "public/Sharry-Mann.jpg",
+    original: "/Lakhwinder-Wadali.jpg",
+    thumbnail: "/Lakhwinder-Wadali.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Surinder-Shinda.jpg",
-    thumbnail: "public/Surinder-Shinda.jpg",
+    original: "/Malkit Singh.jpg",
+    thumbnail: "/Malkit Singh.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Surjit Khan.jpg",
-    thumbnail: "public/Surjit Khan.jpg",
+    original: "/Mankirat.jpg",
+    thumbnail: "/Mankirat.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "/Ninja.jpg",
+    thumbnail: "/Ninja.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "/Roshan-prince.jpg",
+    thumbnail: "/Roshan-prince.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  
+  {
+    original: "/Sharry-Mann.jpg",
+    thumbnail: "/Sharry-Mann.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "/Surinder-Shinda.jpg",
+    thumbnail: "/Surinder-Shinda.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "/Surjit Khan.jpg",
+    thumbnail: "/Surjit Khan.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
