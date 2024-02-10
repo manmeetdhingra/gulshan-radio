@@ -7,33 +7,33 @@ import animationData from '/Users/msingh/gulshan-radio/public/radio.json';
 
 const images = [
   {
-    original: "public/Actor.jpg",
-    thumbnail: "public/Actor.jpg",
+    original: "/Actor.jpg",
+    thumbnail: "/Actor.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Gurdas-Mann.jpg",
-    thumbnail: "public/Gurdas-Mann.jpg",
+    original: "/Gurdas-Mann.jpg",
+    thumbnail: "/Gurdas-Mann.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Sartaj.jpg",
-    thumbnail: "public/Sartaj.jpg",
+    original: "/Sartaj.jpg",
+    thumbnail: "/Sartaj.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   
   {
-    original: "public/Saleem.jpg",
-    thumbnail: "public/Saleem.jpg",
+    original: "/Saleem.jpg",
+    thumbnail: "/Saleem.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "public/Nimrat.jpg",
-    thumbnail: "public/Nimrat.jpg",
+    original: "/Nimrat.jpg",
+    thumbnail: "/Nimrat.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   }
