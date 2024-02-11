@@ -31,7 +31,7 @@ export default function Header() {
         <button onClick={() => navigate("/about")}>About Us</button>
         <button onClick={() => navigate("/contact")}>Contact Us</button>
         
-        <a href="public/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}> <button>Media Pack</button></a>
+        <a href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}> <button>Media Pack</button></a>
         </div>
     </div>
   )
