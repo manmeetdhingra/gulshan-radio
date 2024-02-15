@@ -23,7 +23,6 @@ export default function Presenters() {
     {id: 15,name: "Satty Cheema", coverImg: "/Satty-Cheema-thumb.jpg"},
     {id: 16,name: "Savi", coverImg: "/savi.jpg"},
     {id: 17,name: "Sarpanch", coverImg: "/WhatsApp-Image-2022-09-09-at-13.28.25.jpeg"},
-
   ])
 
 

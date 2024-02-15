@@ -4,6 +4,8 @@ import "./Homepage.css"
 import "react-image-gallery/styles/css/image-gallery.css";
 import Lottie from 'lottie-react';
 import animationData from '../../Data/radio.json';
+import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
+
 
 const images = [
   {
@@ -41,15 +43,32 @@ const images = [
   
 ]
 
+
+
 export default function Homepage() {
+
+const [text] = useTypewriter({
+  words: ['106.9 fm', 'Online', 'DAB'],
+  loop: {},
+  typeSpeed: 80,
+
+})
+
+
   return (
     <div >
     <div className='home-container' >
       <div className='reactIMG-container'>
-      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false}/>
+      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
       </div>
       <div className='main-container'>
-      <h1>Gulshan Radio 106.9FM</h1>
+      <h1>Gulshan Radio
+        
+        <span style={{color: "#D24A6Bff"}}> {text} </span>
+        <Cursor cursorColor='black' />
+        
+        
+        </h1>
       <h2>Live from the heart of Wolverhampton - <br />Bridging communities with a voice for Punjabi, English, Hindi and Urdu speakers in West Midlands and Beyond</h2>
       <Lottie className='Lottie' animationData={animationData}/>
       </div>
