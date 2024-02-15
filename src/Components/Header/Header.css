@@ -66,6 +66,10 @@ img {
         margin: 0 auto;
     }
 
+    .header-container button {
+        margin-top: 30px;
+    }
+
     .button-container{
         position: fixed;
         top: 100px;
@@ -78,7 +82,6 @@ img {
         height: 100%;
         transform: translate(-100%);
         transition: all .45s;
-
     }
 
 
