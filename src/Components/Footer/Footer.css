@@ -16,7 +16,10 @@
 }
 
 @media (max-width: 600px) {
+
+
     .footer-container h3 {
         font-size: 10px;
+        margin: 20px auto;
     }
 }
