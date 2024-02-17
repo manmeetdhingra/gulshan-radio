@@ -13,8 +13,8 @@ export default function Header() {
   const navigate = useNavigate()
 
   return (
-    <div style={{display: "flex", justifyContent: "space-between"}} className='header-container'>
-        <div><img src='/GulshanRadio-UPDATE3-03(1).png' onClick={() => navigate("/")} style={{cursor: "pointer"}}/></div>
+    <div style={{display: "flex", justifyContent: "space-between", width: 'auto'}} className='header-container'>
+        <div><img src='/GulshanRadio-UPDATE3-03(1).png' onClick={() => navigate("/")} style={{cursor: "pointer", marginLeft: "5px"}}/></div>
         <div className={`button-container ${isOpen && "open"}`} >
           {/* <NavLink to={"/"} className={({isActive}) => {isActive && "active"}}>
             Home

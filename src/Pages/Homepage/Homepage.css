@@ -19,7 +19,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 
 .Lottie {
@@ -86,26 +86,32 @@
     }
 }
 
-@media (max-width: 600px) {
+
+
+
+
+@media (max-width: 800px) {
    .home-container {
-    width: 400px;
+    width: auto;
+    margin: auto;
+    margin-top: 5vh;
    }
 
    .main-container {
     width: 250px;
     align-items: center;
+    margin-top: 20px;
+
    }
 
    .main-container h1 {
-    font-size: 40px; 
-}
-
-.Lottie {
-    margin: auto;
+    font-size: 50px;
+    width: fit-content; 
 }
 
 .main-container h2 {
     font-size: 15px;
+    margin-top: 50px;
 }
 
 .card-container p{

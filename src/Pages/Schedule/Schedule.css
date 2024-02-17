@@ -57,7 +57,7 @@
 
   @media (max-width: 650px) {
     .background-img {
-      height: 70vh; /* Decrease the height for smaller screens */
+      height: 80vh; /* Decrease the height for smaller screens */
     }
   
     .schedule-container {

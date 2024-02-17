@@ -117,7 +117,7 @@ img {
     .nav-toggle > .bar::before, .nav-toggle > .bar::after {
         content: "";
         position: absolute;
-        height: 5px;
+        height: 4.5px;
         background: black;
         transition: all .45s ease-in-out;
     }
