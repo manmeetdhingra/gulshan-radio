@@ -68,6 +68,7 @@ img {
 
     .header-container button {
         margin-top: 30px;
+        border: 1px black solid;
     }
 
     .button-container{
