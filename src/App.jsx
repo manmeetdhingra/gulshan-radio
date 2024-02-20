@@ -26,11 +26,11 @@ function App() {
       <Header />
       <Routes>
       <Route path="/" element={<Homepage />}/>
-      <Route path="schedule" element={<Schedule />}/>
-      <Route path="presenters" element={<Presenters />}/>
-      <Route path="gallery" element={<Gallery />}/>
-      <Route path="about" element={<About />}/>
-      <Route path="contact" element={<Contact />}/>
+      <Route path="/schedule" element={<Schedule />}/>
+      <Route path="/presenters" element={<Presenters />}/>
+      <Route path="/gallery" element={<Gallery />}/>
+      <Route path="/about" element={<About />}/>
+      <Route path="/contact" element={<Contact />}/>
       <Route path="/schedule/monday" element={<Monday />}/>
 
       <Route path="/schedule/tuesday" element={<Tuesday />}/>
