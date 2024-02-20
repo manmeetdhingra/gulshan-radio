@@ -44,6 +44,8 @@ function App() {
       <Route path="/schedule/saturday" element={<Saturday />}/>
 
       <Route path="/schedule/sunday" element={<Sunday />}/>
+
+      <Route path="*" element={<Homepage />} />
       </Routes>
       <Footer/>
       </BrowserRouter>
