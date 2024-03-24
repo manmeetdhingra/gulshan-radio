@@ -42,13 +42,38 @@ img {
 
 .button-container{
     align-self: center;
+    
 }
 
 .nav-toggle {
     display: none;
 }
 
-@media (max-width: 1000px) {
+.live button{
+    font-family: 'Nunito', sans-serif;
+    width: 120px;
+    margin: 20px;
+    height: 40px;
+        color: black;
+        padding: 5px 10px;
+        font-size: medium;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: 1.5px solid black;
+        background: #f5f0dc;
+}
+
+.live button:hover{
+    box-shadow: 0 3px #ff0a78;
+    border: 1.5px solid black;
+    top: 1px;
+}
+
+@media (max-width: 1230px) {
 
     .header-container {
         position: relative;
