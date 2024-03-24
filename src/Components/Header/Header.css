@@ -175,3 +175,20 @@ img {
     }
 
 }
+
+@media (max-width: 500px) {
+
+    .live button{
+        width: 80px;
+        height: max-content;
+            font-size: 12px;
+            border: 1px solid black;
+    }
+    
+    .live button:hover{
+        box-shadow: 0 3px #ff0a78;
+        border: 1px solid black;
+        top: 1px;
+    }
+
+}
