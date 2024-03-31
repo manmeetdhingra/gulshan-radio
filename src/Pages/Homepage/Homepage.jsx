@@ -6,7 +6,6 @@ import Lottie from 'lottie-react';
 import animationData from '../../Data/radio.json';
 import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
 
-
 const images = [
   {
     original: "/Actor.jpg",
@@ -65,9 +64,7 @@ const [text] = useTypewriter({
       <h1>Gulshan Radio
         
         <span style={{color: "#D24A6Bff"}}> {text} </span>
-        <Cursor cursorColor='black' />
-        
-        
+        <Cursor cursorColor='black' />      
         </h1>
       <h2>Live from the heart of Wolverhampton - <br />Bridging communities with a voice for Punjabi, English, Hindi and Urdu speakers in West Midlands and Beyond</h2>
       <Lottie className='Lottie' animationData={animationData}/>

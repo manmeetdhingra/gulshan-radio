@@ -26,7 +26,7 @@ export default function Header() {
         <a onClick={() => setIsOpen(false)} href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}><button>Media Pack</button></a>
         </div>
 
-        <div className='live'><a onClick={() => setIsOpen(false)} href="https://radio-live-uk.com/gulshan" target='blank'><button>Listen LIVE</button></a></div>
+        <div className='live'><a onClick={() => setIsOpen(false)} href="https://station.voscast.com/6605402f68260/" target='blank'><button>Listen LIVE</button></a></div>
 
         <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => {setIsOpen(!isOpen)}}>
           <div className="bar">
