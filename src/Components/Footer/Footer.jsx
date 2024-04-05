@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className='footer-container'>
       <div className='text-container'>
-        <h3>Gulshan Radio ©</h3>
+        <a href="/GRprivacy-policy.pdf" download={"GRprivacy-policy.pdf"} style={{color: "white"}}><h3>Terms & Conditions</h3></a>
           <div >
             
           <a href="https://www.facebook.com/GulshanRadioWolverhampton" target='blank' style={{color: "white"}}>
