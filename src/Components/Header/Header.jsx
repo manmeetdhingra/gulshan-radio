@@ -22,6 +22,7 @@ export default function Header() {
         <button onClick={() => {setIsOpen(false); navigate("/gallery")}}>Gallery</button>
         <button onClick={() => {setIsOpen(false); navigate("/about")}}>About Us</button>
         <button onClick={() => {setIsOpen(false); navigate("/contact")}}>Contact Us</button>
+        <button onClick={() => {setIsOpen(false); navigate("/privacy")}}>Privacy Policy</button>        
 
         <a onClick={() => setIsOpen(false)} href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}><button>Media Pack</button></a>
         </div>

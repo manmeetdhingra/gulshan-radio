@@ -15,6 +15,8 @@ import Thursday from "./Pages/Schedule/Days/Thursday";
 import Friday from "./Pages/Schedule/Days/Friday";
 import Saturday from "./Pages/Schedule/Days/Saturday";
 import Sunday from "./Pages/Schedule/Days/Sunday";
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
       <Route path="/gallery" element={<Gallery />}/>
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
+      <Route path="/privacy" element={<PrivacyPolicy />}/>
       <Route path="/schedule/monday" element={<Monday />}/>
 
       <Route path="/schedule/tuesday" element={<Tuesday />}/>
