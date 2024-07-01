@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Header.css"
 import { useNavigate, NavLink } from 'react-router-dom'
 import LinkButton from '../LinkButton/LinkButton';
+import Iframe from 'react-iframe'
 
 
 
@@ -27,7 +28,16 @@ export default function Header() {
         <a onClick={() => setIsOpen(false)} href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}><button>Media Pack</button></a>
         </div>
 
-        <div className='live'><a onClick={() => setIsOpen(false)} href="https://station.voscast.com/6605402f68260/" target='blank'><button>Listen LIVE</button></a></div>
+        <Iframe url="https://cdn.voscast.com/player/player.php?host=s3.voscast.com&port=11510&mount=/stream&autoplay=true&icecast=false"
+        height='30px'
+        width='150px'
+        styles={{display: 'flex', marginTop: '30px'}}
+
+       />
+
+
+
+        {/* <div className='live'><a onClick={() => setIsOpen(false)} href="https://station.voscast.com/6605402f68260/" target='blank'><button>Listen LIVE</button></a></div> */}
 
         <div className={`nav-toggle ${isOpen && "open"}`} onClick={() => {setIsOpen(!isOpen)}}>
           <div className="bar">
