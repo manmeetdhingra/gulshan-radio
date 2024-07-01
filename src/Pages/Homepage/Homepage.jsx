@@ -7,6 +7,14 @@ import animationData from '../../Data/radio.json';
 import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
 
 const images = [
+
+  {
+    original: "/GR-MP.jpg",
+    thumbnail: "/GR-MP.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+
   {
     original: "/Actor.jpg",
     thumbnail: "/Actor.jpg",
