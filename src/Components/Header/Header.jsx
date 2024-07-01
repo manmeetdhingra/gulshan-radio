@@ -31,7 +31,7 @@ export default function Header() {
         <Iframe url="https://cdn.voscast.com/player/player.php?host=s3.voscast.com&port=11510&mount=/stream&autoplay=true&icecast=false"
         height='30px'
         width='150px'
-        styles={{display: 'flex', marginTop: '30px'}}
+        styles={{display: 'flex', marginTop: '30px', margin: '35px 10px 0px 10px'}}
 
        />
 
