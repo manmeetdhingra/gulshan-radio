@@ -9,6 +9,38 @@ import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
 const images = [
 
   {
+    original: "/DILAN DE RISHTE_300x250.jpg",
+    thumbnail: "/DILAN DE RISHTE_300x250.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "GALL MITHI MITHI_300x250.jpg",
+    thumbnail: "GALL MITHI MITHI_300x250.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "HEER TEY TEDHI KHEER_300x250.jpg",
+    thumbnail: "HEER TEY TEDHI KHEER_300x250.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  
+  {
+    original: "SAHAJVEER_300x250.jpg",
+    thumbnail: "SAHAJVEER_300x250.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+  {
+    original: "Shivika_300x250.jpg",
+    thumbnail: "Shivika_300x250.jpg",
+    originalHeight: "400px",
+    thumbnailHeight: "65px"
+  },
+
+  {
     original: "/GR-MP.jpg",
     thumbnail: "/GR-MP.jpg",
     originalHeight: "400px",
