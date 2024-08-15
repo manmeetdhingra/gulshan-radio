@@ -25,7 +25,7 @@ export default function Header() {
         <button onClick={() => {setIsOpen(false); navigate("/contact")}}>Contact Us</button>
         <button onClick={() => {setIsOpen(false); navigate("/privacy")}}>Privacy Policy</button>        
 
-        <a onClick={() => setIsOpen(false)} href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}><button>Media Pack</button></a>
+        {/* <a onClick={() => setIsOpen(false)} href="/GR-MediaPack.pdf" download={"GR-MediaPack.pdf"}><button>Media Pack</button></a> */}
         </div>
 
         <Iframe url="https://cdn.voscast.com/player/player.php?host=s3.voscast.com&port=11510&mount=/stream&autoplay=true&icecast=false"
