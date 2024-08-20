@@ -93,10 +93,9 @@ const [text] = useTypewriter({
 
 });
 
-const handleClick = () => {
-  const url = 'https://www.youtube.com/@zeetvuk';
-  window.open(url, "_blank")
-};
+const handleZeeClick = () => {
+  window.open('https://www.youtube.com/@zeetvuk', '_blank');
+}
 
 
   return (
@@ -118,7 +117,7 @@ const handleClick = () => {
 
 
     </div>
-    <button className='zee-button' onClick={handleClick()}>Zee Tv UK Youtube Channel</button>
+    <button className='zee-button' onClick={handleZeeClick}>Zee Tv UK Youtube Channel</button>
     <div className='goals-container'>
       <h2>Our Goals</h2>
       <div className='card-container' style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
