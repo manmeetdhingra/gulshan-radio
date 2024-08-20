@@ -93,7 +93,7 @@ const [text] = useTypewriter({
 
 });
 
-const handleImageClick = () => {
+const handleClick = () => {
   const url = 'https://www.youtube.com/@zeetvuk';
   window.open(url, "_blank")
 };
@@ -103,7 +103,8 @@ const handleImageClick = () => {
     <div >
     <div className='home-container' >
       <div className='reactIMG-container'>
-      <ReactImageGallery onClick={handleImageClick()} items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
+      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
+      
       </div>
       <div className='main-container'>
       <h1>Gulshan Radio
@@ -117,6 +118,7 @@ const handleImageClick = () => {
 
 
     </div>
+    <button className='zee-button' onClick={handleClick()}>Zee Tv UK Youtube Channel</button>
     <div className='goals-container'>
       <h2>Our Goals</h2>
       <div className='card-container' style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
