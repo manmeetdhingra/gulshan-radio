@@ -12,7 +12,7 @@ const images = [
     original: "/DILAN DE RISHTE_300x250.jpg",
     thumbnail: "/DILAN DE RISHTE_300x250.jpg",
     originalHeight: "400px",
-    thumbnailHeight: "65px"
+    thumbnailHeight: "65px",
   },
   {
     original: "GALL MITHI MITHI_300x250.jpg",
@@ -91,14 +91,19 @@ const [text] = useTypewriter({
   loop: {},
   typeSpeed: 80,
 
-})
+});
+
+const handleImageClick = () => {
+  const url = 'https://www.youtube.com/@zeetvuk';
+  window.open(url, "_blank")
+};
 
 
   return (
     <div >
     <div className='home-container' >
       <div className='reactIMG-container'>
-      <ReactImageGallery items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
+      <ReactImageGallery onClick={handleImageClick()} items={images} showBullets={true} showThumbnails={true} showPlayButton={false} showFullscreenButton={false} />
       </div>
       <div className='main-container'>
       <h1>Gulshan Radio
