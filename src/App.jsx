@@ -7,6 +7,7 @@ import Schedule from "./Pages/Schedule/Schedule";
 import Presenters from "./Pages/Presenters/Presenters";
 import Gallery from "./Pages/Gallery/Gallery";
 import About from "./Pages/About/About";
+import Volunteer from "./Pages/Volunteer/Volunteer";
 import Contact from "./Pages/Contact/Contact";
 import Monday from "./Pages/Schedule/Days/Monday";
 import Tuesday from "./Pages/Schedule/Days/Tuesday";
@@ -16,7 +17,6 @@ import Friday from "./Pages/Schedule/Days/Friday";
 import Saturday from "./Pages/Schedule/Days/Saturday";
 import Sunday from "./Pages/Schedule/Days/Sunday";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
-
 
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/privacy" element={<PrivacyPolicy />}/>
+      <Route path="/volunteer" element={<Volunteer />}/>
       <Route path="/schedule/monday" element={<Monday />}/>
 
       <Route path="/schedule/tuesday" element={<Tuesday />}/>
