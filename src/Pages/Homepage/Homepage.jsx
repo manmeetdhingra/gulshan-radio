@@ -9,33 +9,33 @@ import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
 const images = [
 
   {
-    original: "/DILAN DE RISHTE_300x250.jpg",
-    thumbnail: "/DILAN DE RISHTE_300x250.jpg",
+    original: "/madhu1.jpg",
+    thumbnail: "/madhu1.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px",
   },
   {
-    original: "GALL MITHI MITHI_300x250.jpg",
-    thumbnail: "GALL MITHI MITHI_300x250.jpg",
+    original: "/madhu2.jpg",
+    thumbnail: "/madhu2.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "HEER TEY TEDHI KHEER_300x250.jpg",
-    thumbnail: "HEER TEY TEDHI KHEER_300x250.jpg",
+    original: "/madhu3.jpg",
+    thumbnail: "/madhu3.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   
   {
-    original: "SAHAJVEER_300x250.jpg",
-    thumbnail: "SAHAJVEER_300x250.jpg",
+    original: "/madhu4.jpg",
+    thumbnail: "/madhu4.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
   {
-    original: "Shivika_300x250.jpg",
-    thumbnail: "Shivika_300x250.jpg",
+    original: "/madhu5.jpg",
+    thumbnail: "/madhu5.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px"
   },
@@ -93,9 +93,9 @@ const [text] = useTypewriter({
 
 });
 
-const handleZeeClick = () => {
-  window.open('https://www.youtube.com/@zeetvuk', '_blank');
-}
+// const handleZeeClick = () => {
+//   window.open('https://www.youtube.com/@zeetvuk', '_blank');
+// }
 
 
   return (
@@ -117,7 +117,7 @@ const handleZeeClick = () => {
 
 
     </div>
-    <button className='zee-button' onClick={handleZeeClick}>Zee Tv UK Youtube Channel</button>
+    {/* <button className='zee-button' onClick={handleZeeClick}>Zee Tv UK Youtube Channel</button> */}
     <div className='goals-container'>
       <h2>Our Goals</h2>
       <div className='card-container' style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
