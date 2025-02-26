@@ -9,37 +9,11 @@ import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter';
 const images = [
 
   {
-    original: "/madhu1.jpg",
-    thumbnail: "/madhu1.jpg",
+    original: "/doghouse.jpg",
+    thumbnail: "/doghouse.jpg",
     originalHeight: "400px",
     thumbnailHeight: "65px",
   },
-  {
-    original: "/madhu2.jpg",
-    thumbnail: "/madhu2.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "/madhu3.jpg",
-    thumbnail: "/madhu3.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  
-  {
-    original: "/madhu4.jpg",
-    thumbnail: "/madhu4.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-  {
-    original: "/madhu5.jpg",
-    thumbnail: "/madhu5.jpg",
-    originalHeight: "400px",
-    thumbnailHeight: "65px"
-  },
-
   {
     original: "/GR-MP.jpg",
     thumbnail: "/GR-MP.jpg",
